@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.mogota.agritech",
+      "sha256_cert_fingerprints": [
+        "15:C6:90:F5:86:8C:DB:AD:05:6F:9E:14:C0:72:61:67:8B:0B:C4:BE:81:9E:46:83:24:6B:93:7F:96:91:FF:28"
+      ]
+    }
+  }
+]
