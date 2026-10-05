@@ -76,7 +76,6 @@ function AppInner() {
     <div style={{ fontFamily: BODY, background: C.bg, color: C.ink, minHeight: "100%" }}>
       {backendStatus !== "connected" && (
         <div style={{ background: C.orangeTint, color: C.orangeDeep, fontFamily: MONO, fontSize: 11.5, textAlign: "center", padding: "6px 10px" }}>
-          Mode démonstration — backend non joignable dans cet aperçu, compte non requis ici (obligatoire une fois le backend lancé)
         </div>
       )}
       {!online && (
@@ -119,7 +118,7 @@ function AppInner() {
             <div>
               <div style={{ display: "flex", alignItems: "center", gap: 8, fontFamily: MONO, fontSize: 11, letterSpacing: "0.12em", textTransform: "uppercase", color: C.green, marginBottom: 6 }}>
                 <span style={{ width: 7, height: 7, borderRadius: "50%", background: C.green }} />
-                {t("appName")} — Prototype
+                {t("appName")}
               </div>
               <h1 style={{ fontFamily: DISPLAY, fontWeight: 700, fontSize: 28, margin: 0, lineHeight: 1.05, color: "#fff" }}>
                 {t("tagline")}
@@ -206,10 +205,9 @@ function AppInner() {
         {tab === "admin" && <TabAdmin auth={auth} />}
 
         <div style={{ fontSize: 12, color: C.inkDim, marginTop: 22, lineHeight: 1.6 }}>
-          Prototype de démonstration — Mogota Agri-Tech Innovation. Météo, sécheresse, historique et guide de culture : valeurs
-          indicatives à partir de profils climatiques et agronomiques régionaux types (non connectées à une source de données temps réel).
-          SMS : simulation, aucun envoi réel. Assistant IA : réponses générées en direct par Claude. Backend Django : voir
-          mogota-backend-django.zip pour l'authentification admin, le contenu éditable, et la génération de régions par IA.
+          Mogota Agri-Tech Innovation. Météo, sécheresse, historique et guide de culture : valeurs indicatives à partir de
+          profils climatiques et agronomiques régionaux types. SMS/WhatsApp : fonctionnel une fois la passerelle configurée
+          côté serveur. Assistant IA : réponses générées en direct par Claude.
         </div>
 
         <Footer/>

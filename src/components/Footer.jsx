@@ -22,14 +22,14 @@ export function Footer() {
       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px,1fr))", gap: 24 }}>
         <div>
           <div style={{ fontFamily: DISPLAY, fontWeight: 700, fontSize: 16, marginBottom: 8 }}>Mogota Agri-Tech Innovation</div>
-          <div style={{ fontSize: 13, color: "#B9C3D2", lineHeight: 1.6 }}>Conseil agro-climatique pour les producteurs tchadiens.</div>
+          <div style={{ fontSize: 13, color: "#B9C3D2", lineHeight: 1.6 }}>Conseil agro-climatique pour les producteurs Africains.</div>
         </div>
         <div>
           <div style={{ fontFamily: MONO, fontSize: 11, textTransform: "uppercase", letterSpacing: "0.08em", color: C.greenSoft || C.green, marginBottom: 8 }}>Contact</div>
           <div style={{ fontSize: 13, color: "#B9C3D2", lineHeight: 1.8 }}>
             mogota.agritech@gmail.com<br/>
-            Tchad<br/>
-            Téléphone : à compléter
+            Tchad & Rwanda<br/>
+            Téléphone : +250 796 88O 397
           </div>
         </div>
         <div>
@@ -43,7 +43,7 @@ export function Footer() {
         </div>
       </div>
       <div style={{ borderTop: "1px solid rgba(255,255,255,0.12)", marginTop: 22, paddingTop: 14, fontSize: 11.5, color: "#7C8AA0" }}>
-        Prototype de démonstration — Mogota Agri-Tech Innovation.
+        Mogota Agri-Tech Innovation.
       </div>
     </div>
   );
